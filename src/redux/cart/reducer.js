@@ -55,7 +55,8 @@ const cartReducer = (state = initialState, action) => {
           product.id === action.payload
             ? { ...product, quantity: product.quantity - 1 }
             : product
-        ),
+        )
+        .filter((product) => product.quantity >0 ),
       };
 
     default:

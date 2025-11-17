@@ -26,7 +26,7 @@ const CartItem = ({ product }) => {
 
       <Styles.CartItemInfo>
         <p>{product.name}</p>
-        <p>R${product.price}</p>
+        <p>{product.price}€</p>
 
         <Styles.CartItemQuantity>
           <AiOutlineMinus

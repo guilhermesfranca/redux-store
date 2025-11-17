@@ -26,7 +26,7 @@ const ProductItem = ({ product }) => {
 
       <Styles.ProductInfo>
         <p>{product.name}</p>
-        <p>R${product.price}</p>
+        <p>{product.price}€</p>
       </Styles.ProductInfo>
     </Styles.ProductContainer>
   );
