@@ -1,5 +1,5 @@
 {
-  "name": "redux-youtube",
+  "name": "redux-store",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

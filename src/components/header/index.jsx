@@ -15,7 +15,7 @@ function Header() {
 
   return (
     <Styles.Container>
-      <Styles.Logo>Redux Shopping</Styles.Logo>
+      <Styles.Logo>🛒Redux Store</Styles.Logo>
       <Styles.Buttons>
         <div>Login</div>
         <div onClick={handleCartClick}>Carrinho</div>
